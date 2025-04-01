@@ -16,7 +16,6 @@ const ContactSection = () => {
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-pink-600 font-medium">Contato</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-gray-800">
             Vamos Conversar Sobre Seu Projeto
           </h2>
@@ -38,7 +37,7 @@ const ContactSection = () => {
                   <Input 
                     id="name" 
                     placeholder="Seu nome" 
-                    className="w-full border-gray-300 focus:border-pink-500 focus:ring-pink-500"
+                    className="w-full border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                     required
                   />
                 </div>
@@ -50,7 +49,7 @@ const ContactSection = () => {
                     id="email" 
                     type="email" 
                     placeholder="seu@email.com" 
-                    className="w-full border-gray-300 focus:border-pink-500 focus:ring-pink-500"
+                    className="w-full border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                     required
                   />
                 </div>
@@ -81,7 +80,7 @@ const ContactSection = () => {
                 />
               </div>
               
-              <Button type="submit" className="w-full bg-pink-600 hover:bg-pink-700 py-6">
+              <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 py-8">
                 Enviar Mensagem <Send className="ml-2 h-4 w-4" />
               </Button>
             </form>
@@ -92,8 +91,8 @@ const ContactSection = () => {
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start">
-                <div className="flex-shrink-0 bg-pink-100 p-3 rounded-full">
-                  <Mail className="h-6 w-6 text-pink-600" />
+                <div className="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                  <Mail className="h-6 w-6 text-blue-600" />
                 </div>
                 <div className="ml-4">
                   <h4 className="text-base font-medium text-gray-800">Email</h4>
@@ -102,8 +101,8 @@ const ContactSection = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="flex-shrink-0 bg-pink-100 p-3 rounded-full">
-                  <Phone className="h-6 w-6 text-pink-600" />
+                <div className="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                  <Phone className="h-6 w-6 text-blue-600" />
                 </div>
                 <div className="ml-4">
                   <h4 className="text-base font-medium text-gray-800">Telefone</h4>
@@ -112,12 +111,12 @@ const ContactSection = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="flex-shrink-0 bg-pink-100 p-3 rounded-full">
-                  <MapPin className="h-6 w-6 text-pink-600" />
+                <div className="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                  <MapPin className="h-6 w-6 text-blue-600" />
                 </div>
                 <div className="ml-4">
                   <h4 className="text-base font-medium text-gray-800">Localização</h4>
-                  <p className="text-gray-600 mt-1">São Paulo, SP - Brasil</p>
+                  <p className="text-gray-600 mt-1">Rio De Janeiro, RJ - Brasil</p>
                 </div>
               </div>
             </div>
@@ -125,14 +124,14 @@ const ContactSection = () => {
             <div>
               <h4 className="text-xl font-bold mb-4 text-gray-800">Siga-me nas redes sociais</h4>
               <div className="flex space-x-4">
-                <a href="#" className="bg-pink-100 p-3 rounded-full hover:bg-pink-200 transition-colors">
-                  <Instagram className="h-6 w-6 text-pink-600" />
+                <a href="#" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                  <Instagram className="h-6 w-6 text-blue-600" />
                 </a>
-                <a href="#" className="bg-pink-100 p-3 rounded-full hover:bg-pink-200 transition-colors">
-                  <Linkedin className="h-6 w-6 text-pink-600" />
+                <a href="#" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                  <Linkedin className="h-6 w-6 text-blue-600" />
                 </a>
-                <a href="#" className="bg-pink-100 p-3 rounded-full hover:bg-pink-200 transition-colors">
-                  <Twitter className="h-6 w-6 text-pink-600" />
+                <a href="#" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                  <Phone className="h-6 w-6 text-blue-600" />
                 </a>
               </div>
             </div>
@@ -142,7 +141,7 @@ const ContactSection = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0488551394!2d-46.92499765!3d-23.68139945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1656596256247!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="200"
-                style={{ border: 0, borderRadius: "0.5rem" }}
+                style={{ border: 0, borderRadius: "0.8rem" }}
                 allowFullScreen
                 loading="lazy"
                 title="Localização"

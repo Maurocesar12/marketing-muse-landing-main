@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
       name: "Mariana Silva",
       role: "CEO, Empresa de Tecnologia",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      quote: "Contratar a Amanda foi a melhor decisão que tomamos para nosso marketing. Em apenas 3 meses, nossas vendas aumentaram em 40% com as estratégias que ela implementou.",
+      quote: "Contratar a Glenda foi a melhor decisão que tomamos para nosso marketing. Em apenas 3 meses, nossas vendas aumentaram em 40% com as estratégias que ela implementou.",
       stars: 5
     },
     {
@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
       name: "Rafael Oliveira",
       role: "Fundador, Startup de Saúde",
       image: img1,
-      quote: "A estratégia de SEO desenvolvida pela Amanda transformou completamente nossa visibilidade online. Hoje estamos na primeira página do Google para as palavras-chave mais importantes do nosso mercado.",
+      quote: "A estratégia de SEO desenvolvida pela Glenda transformou completamente nossa visibilidade online. Hoje estamos na primeira página do Google para as palavras-chave mais importantes do nosso mercado.",
       stars: 5
     },
     {
@@ -44,7 +44,6 @@ const TestimonialsSection = () => {
     <section id="testimonials" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-pink-600 font-medium">Depoimentos</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-gray-800">
             O Que Meus Clientes Dizem
           </h2>

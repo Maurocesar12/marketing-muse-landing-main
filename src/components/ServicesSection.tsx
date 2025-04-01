@@ -60,9 +60,6 @@ const ServicesSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">{service.description}</p>
-                <Button variant="link" className="text-blue-600 p-0 mt-4 hover:text-blue-800">
-                  Saiba mais →
-                </Button>
               </CardContent>
             </Card>
           ))}
@@ -70,7 +67,13 @@ const ServicesSection = () => {
 
         <div className="text-center mt-12">
           <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base">
-            Ver Todos os Serviços
+          <a
+             href="https://wa.me/+5521985552587"
+             target="_blank"
+             rel="noopener noreferrer"
+          >
+            Ver Todos os Serviços!
+          </a>
           </Button>
         </div>
       </div>
