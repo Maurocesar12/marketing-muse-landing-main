@@ -76,8 +76,8 @@ A aplicação pode ser facilmente hospedada em plataformas como:
 
 Se precisar de suporte ou tiver alguma sugestão para melhorias, entre em contato:
 
-📩 **Email**: [seuemail@exemplo.com](mailto:seuemail@exemplo.com)  
-💼 **LinkedIn**: [linkedin.com/in/seu-perfil](https://linkedin.com/in/seu-perfil)
+📩 **Email**: mauroguima080@hotmail.com
+💼 **LinkedIn**: [linkedin.com/in/seu-perfil]([https://linkedin.com/in/seu-perfil](https://www.linkedin.com/in/mauro-c%C3%A9sar-guimaraes-santos-junior-b9638b203/))
 
 ---
 
