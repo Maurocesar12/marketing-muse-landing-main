@@ -14,7 +14,7 @@ const Footer = () => {
               Soluções personalizadas de marketing digital para aumentar sua presença online e convertê-la em resultados reais.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
+              <a href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-blue-400 mr-3 mt-1" />
-                <span className="text-gray-300">(11) 99999-9999</span>
+                <span className="text-gray-300">+55 (21) 98555-2587</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-blue-400 mr-3 mt-1" />

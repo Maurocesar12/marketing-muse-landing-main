@@ -68,13 +68,13 @@ const Navbar = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-pink-600 font-medium transition-colors py-2"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}
               </a>
             ))}
-            <Button className="bg-pink-600 hover:bg-pink-700 w-full">
+            <Button className="bg-blue-600 hover:bg-blue-700 w-full">
               Agendar Consulta
             </Button>
           </div>

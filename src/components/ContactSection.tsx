@@ -62,7 +62,7 @@ const ContactSection = () => {
                 <Input 
                   id="subject" 
                   placeholder="Qual o assunto?" 
-                  className="w-full border-gray-300 focus:border-pink-500 focus:ring-pink-500"
+                  className="w-full border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                   required
                 />
               </div>
@@ -74,7 +74,7 @@ const ContactSection = () => {
                 <Textarea 
                   id="message" 
                   placeholder="Como posso ajudar?" 
-                  className="w-full border-gray-300 focus:border-pink-500 focus:ring-pink-500"
+                  className="w-full border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                   rows={5}
                   required
                 />
@@ -124,13 +124,13 @@ const ContactSection = () => {
             <div>
               <h4 className="text-xl font-bold mb-4 text-gray-800">Siga-me nas redes sociais</h4>
               <div className="flex space-x-4">
-                <a href="#" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                <a href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
                   <Instagram className="h-6 w-6 text-blue-600" />
                 </a>
                 <a href="#" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
                   <Linkedin className="h-6 w-6 text-blue-600" />
                 </a>
-                <a href="#" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                <a href="https://wa.me/+5521985552587" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
                   <Phone className="h-6 w-6 text-blue-600" />
                 </a>
               </div>
@@ -138,7 +138,7 @@ const ContactSection = () => {
             
             <div className="mt-10">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0488551394!2d-46.92499765!3d-23.68139945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1656596256247!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940804.1718932282!2d-44.105434308878834!3d-22.912769753886522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1743788999898!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="200"
                 style={{ border: 0, borderRadius: "0.8rem" }}
