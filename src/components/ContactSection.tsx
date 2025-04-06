@@ -96,7 +96,7 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-base font-medium text-gray-800">Email</h4>
-                  <p className="text-gray-600 mt-1">contato@amandamarketing.com</p>
+                  <p className="text-gray-600 mt-1">glendamrkt@gmail.com</p>
                 </div>
               </div>
               

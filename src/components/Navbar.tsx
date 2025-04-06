@@ -45,7 +45,7 @@ const Navbar = () => {
              target="_blank"
              rel="noopener noreferrer"
           >
-            Agendar Consulta
+            Entrar em contato
           </a>
           </Button>
 

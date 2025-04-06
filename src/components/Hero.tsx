@@ -11,11 +11,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 pr-0 md:pr-10">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-gray-800">
-              Estratégias de <span className="text-blue-600">Marketing</span> que Transformam Resultados
+            Transformando negócios em marcas de sucesso através do <span className="text-blue-600">marketing</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-              Especialista em soluções personalizadas de marketing digital para
-              aumentar sua presença online e convertê-la em resultados reais.
+            Transformo a essência do seu negócio em uma presença autêntica que atrai, conecta e vende. 
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base">
@@ -24,7 +23,7 @@ const Hero = () => {
              target="_blank"
              rel="noopener noreferrer"
             >
-                Agendar Consulta
+                Quero uma Estratégia
             </a> 
               </Button>
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-6 text-base">

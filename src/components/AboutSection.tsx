@@ -23,12 +23,12 @@ const AboutSection = () => {
           <div className="md:w-1/2">
             <div className="mb-4">
               <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-gray-800">
-                Especialista em Marketing Digital com Foco em Resultados
+              Sou Glenda Carvalho, estrategista de marketing com quase 6 anos de experiência.
               </h2>
             </div>
             
             <p className="text-gray-600 mb-6">
-              Há mais de 5 anos, tenho ajudado empresas a transformarem sua presença digital e alcançarem seus objetivos de negócio. Com formação em Marketing e especialização em estratégias digitais, trago uma abordagem analítica e criativa para cada projeto.
+            Minha missão é ajudar empreendedoras a transformarem a essência do seu negócio em uma presença estratégica que atrai, conecta e vende de forma autêntica e intencional. <br />Aqui, você não encontra apenas posts bonitos, mas um direcionamento claro e personalizado, pensado para gerar resultados reais e posicionar o seu negócio do jeito certo.
             </p>
             
             <div className="space-y-4 mb-8">
@@ -36,25 +36,25 @@ const AboutSection = () => {
                 <div className="flex-shrink-0 mt-1">
                   <Check className="h-5 w-5 text-blue-600" />
                 </div>
-                <p className="ml-3 text-gray-600">Certificada em Google Ads e Facebook Ads</p>
+                <p className="ml-3 text-gray-600">A estratégia é única, assim como o seu negócio.</p>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <Check className="h-5 w-5 text-blue-600" />
                 </div>
-                <p className="ml-3 text-gray-600">Experiência em análise de dados e otimização de campanha</p>
+                <p className="ml-3 text-gray-600">Clareza  na comunicação.</p>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <Check className="h-5 w-5 text-blue-600" />
                 </div>
-                <p className="ml-3 text-gray-600">Especialista em SEO e estratégias de conteúdo</p>
+                <p className="ml-3 text-gray-600">Alinhamento genuíno com a essência da sua marca.</p>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <Check className="h-5 w-5 text-blue-600" />
                 </div>
-                <p className="ml-3 text-gray-600">Foco em crescimento sustentável e ROI positivo</p>
+                <p className="ml-3 text-gray-600">Foco no crescimento do seu negócio</p>
               </div>
             </div>
           

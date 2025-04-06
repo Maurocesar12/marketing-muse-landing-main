@@ -8,33 +8,33 @@ const ServicesSection = () => {
   const services = [
     {
       icon: <Search className="h-10 w-10 text-blue-600" />,
-      title: "SEO",
-      description: "Otimização do seu site para os motores de busca, aumentando seu tráfego orgânico e visibilidade online."
+      title: "Estratégia de Marketing e Conteúdo",
+      description: "Minhas estratégias são guiadas por dados, não por achismos. Analiso mercado, concorrência e o comportamento do seu público para criar posicionamento autêntico e ações com propósito."
     },
     {
       icon: <BarChart className="h-10 w-10 text-blue-600" />,
-      title: "Marketing de Performance",
-      description: "Campanhas de anúncios focadas em resultados mensuráveis para maximizar seu retorno sobre investimento."
+      title: "Consultoria - Marketing e Conteúdo",
+      description: "Unindo estratégia, criatividade e comportamento do consumidor, ajudo você a desenvolver ações inteligentes, inovadoras e alinhadas ao seu mercado, garantindo diferencial competitivo."
     },
     {
       icon: <Globe className="h-10 w-10 text-blue-600" />,
       title: "Gestão de Mídias Sociais",
-      description: "Estratégia e gerenciamento completo de suas redes sociais para engajar seu público e construir autoridade."
+      description: "Gerencio suas redes com estratégia e intenção. O conteúdo é pensado para posicionar, engajar e vender. Atendimento próximo, testes constantes, análise de dados e otimizações para garantir resultados reais e consistentes no digital."
     },
     {
       icon: <MessageSquare className="h-10 w-10 text-blue-600" />,
-      title: "Marketing de Conteúdo",
-      description: "Criação de conteúdo relevante e otimizado para atrair e converter seu público-alvo em clientes fiéis."
+      title: "Diagnóstico Express",
+      description: "Em poucos dias, você já tem um direcionamento claro para melhorar seu perfil. Análise  e orientações baseadas em técnicas de marketing digital e posicionamento."
     },
     {
       icon: <LineChart className="h-10 w-10 text-blue-600" />,
-      title: "Análise de Dados",
-      description: "Análise profunda de métricas para otimizar suas estratégias e focar nos canais mais eficientes."
+      title: "Consultoria - Marketing e Gestão para Negócios",
+      description: "Antes de qualquer estratégia, analisamos onde sua empresa está, quais são os desafios e quais oportunidades podem ser exploradas.Focando não apenas no marketing, mas também a gestão, processos e ações estratégicas do negócio."
     },
     {
       icon: <Users className="h-10 w-10 text-blue-600" />,
-      title: "Consultoria Estratégica",
-      description: "Orientação personalizada para direcionar suas decisões de marketing e alcançar seus objetivos de negócio."
+      title: "Storymaker - Gravação de conteúdo",
+      description: "Gere desejo e transmita autoridade através de conteúdos de qualidade para o seu negócio!"
     }
   ];
 
@@ -43,7 +43,7 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-4xl font-bold mt-2 mb-6 text-gray-800">
-            Soluções Completas em Marketing Digital
+            Soluções de Marketing para o seu negócio.
           </h2>
           <p className="text-gray-600">
             Ofereço serviços personalizados para atender às necessidades específicas do seu negócio,
@@ -72,7 +72,7 @@ const ServicesSection = () => {
              target="_blank"
              rel="noopener noreferrer"
           >
-            Ver Todos os Serviços!
+            Quero saber mais!
           </a>
           </Button>
         </div>
