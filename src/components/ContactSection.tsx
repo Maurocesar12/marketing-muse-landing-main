@@ -6,11 +6,37 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Send, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const ContactSection = () => {
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     // Form submission logic would go here
-    console.log("Form submitted");
-  };
+    const form = e.target as HTMLFormElement;
+
+  const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+  const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+  const subject = (form.elements.namedItem("subject") as HTMLInputElement).value;
+  const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+
+  try {
+    const response = await fetch("http://localhost:8080/api/trello", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ name, email, subject, message })
+    });
+
+    if (!response.ok) {
+      throw new Error("Erro ao enviar mensagem");
+    }
+
+    alert("Mensagem enviada com sucesso!");
+    form.reset();
+  } catch (error) {
+    console.error("Erro ao enviar mensagem:", error);
+    alert("Erro ao enviar. Tente novamente.");
+  }
+};
+    
 
   return (
     <section id="contact" className="py-20 bg-white">
