@@ -2,7 +2,7 @@
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { BarChart, LineChart, Search, Globe, MessageSquare, Users } from "lucide-react";
+import { BarChart, LineChart, Search, Globe, MessageSquare, Users, Computer } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
@@ -27,9 +27,9 @@ const ServicesSection = () => {
       description: "Em poucos dias, você já tem um direcionamento claro para melhorar seu perfil. Análise  e orientações baseadas em técnicas de marketing digital e posicionamento."
     },
     {
-      icon: <LineChart className="h-10 w-10 text-blue-600" />,
-      title: "Consultoria - Marketing e Gestão para Negócios",
-      description: "Antes de qualquer estratégia, analisamos onde sua empresa está, quais são os desafios e quais oportunidades podem ser exploradas.Focando não apenas no marketing, mas também a gestão, processos e ações estratégicas do negócio."
+      icon: <Computer className="h-10 w-10 text-blue-600" />,
+      title: "Criação de Sites e Sistemas que Conectam com o Seu Negócio",
+      description: "Entendemos as necessidades do seu negócio e transformamos em soluções digitais que funcionam de verdade. Sites e sistemas pensados para facilitar sua rotina, melhorar resultados e crescer com você."
     },
     {
       icon: <Users className="h-10 w-10 text-blue-600" />,
