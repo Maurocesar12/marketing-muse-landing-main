@@ -38,17 +38,16 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-      
-          <Button className="hidden md:block bg-blue-500 hover:bg-blue-700">
+          
           <a
-             href="https://wa.me/+5521985552587"
-             target="_blank"
-             rel="noopener noreferrer"
+          href="https://wa.me/+5521985552587"
+          target="_blank"
+          rel="noopener noreferrer"
           >
-            Entrar em contato
-          </a>
+          <Button className="hidden md:block bg-blue-500 hover:bg-blue-700">          
+            Entrar em contato         
           </Button>
-
+          </a>
 
         {/* Mobile menu button */}
         <button
@@ -74,9 +73,15 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
+            <a
+            href="https://wa.me/+5521985552587"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
             <Button className="bg-blue-600 hover:bg-blue-700 w-full">
               Agendar Consulta
             </Button>
+            </a>
           </div>
         </div>
       )}

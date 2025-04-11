@@ -17,24 +17,26 @@ const Hero = () => {
             Transformo a essência do seu negócio em uma presença autêntica que atrai, conecta e vende. 
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base">
+            
             <a
              href="https://wa.me/+5521985552587"
              target="_blank"
              rel="noopener noreferrer"
             >
-                Quero uma Estratégia
-            </a> 
+            <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base">            
+                Quero uma Estratégia             
               </Button>
-              <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-6 text-base">
-                <a
+            </a> 
+
+              <a
                 href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br"
                 target="_blank"
                 rel="noopener noreferrer"
-                ></a>
-                Ver Serviços<ArrowRight className="ml-2 h-4 w-4" />
-                
+              >
+              <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-6 text-base">              
+                Ver Serviços<ArrowRight className="ml-2 h-4 w-4" />                
               </Button>
+              </a>
             </div>
           </div>
           <div className="md:w-1/2 relative">
