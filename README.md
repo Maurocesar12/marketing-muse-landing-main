@@ -44,7 +44,7 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 1️⃣ **Clone este repositório**
 ```sh
-git clone <URL_DO_REPOSITORIO>
+git clone (https://github.com/Maurocesar12/marketing-muse-landing-main)
 ```
 
 2️⃣ **Acesse o diretório do projeto**
