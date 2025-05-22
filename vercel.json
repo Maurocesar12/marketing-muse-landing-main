@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "backend-trello/index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/trello", "dest": "backend-trello/index.js" },
+    { "src": "/(.*)", "dest": "src/$1", "headers": { "Cache-Control": "s-maxage=0" } }
+  ]
+}
