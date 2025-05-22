@@ -8,36 +8,28 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Mariana Silva",
-      role: "CEO, Empresa de Tecnologia",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      quote: "Contratar a Glenda foi a melhor decisão que tomamos para nosso marketing. Em apenas 3 meses, nossas vendas aumentaram em 40% com as estratégias que ela implementou.",
+      name: "Ilka",
+      role: "CEO, Nonna Lina",
+      image: "../src/image/logo-nonnaLina.png",
+      quote: "Ter a Glenda ao meu lado nessa caminhada tem sido uma experiência incrível. Ela conseguiu entender minha essência, meu propósito e transformar isso em ações reais, organizadas e cheias de significado. Com sensibilidade e profissionalismo, ela me ajudou a dar mais clareza ao meu negócio e a fortalecer minha presença nas redes sociais. Sou grata por tudo que construímos juntas até aqui e animada com o que ainda está por vir!",
       stars: 5
     },
     {
       id: 2,
-      name: "Rafael Oliveira",
-      role: "Fundador, Startup de Saúde",
-      image: img1,
-      quote: "A estratégia de SEO desenvolvida pela Glenda transformou completamente nossa visibilidade online. Hoje estamos na primeira página do Google para as palavras-chave mais importantes do nosso mercado.",
+      name: "Raphael",
+      role: "CEO e Fundador da MMR Gases",
+      image: "../src/image/logo-mmr_1.png",
+      quote: "A consultoria da Glenda foi extremamente importante para profissionalização digital da nossa empresa, sempre buscando novas ideias e contribuindo para o crescimento profissional de cada setor na nossa empresa!",
       stars: 5
     },
     {
       id: 3,
-      name: "Carla Mendes",
-      role: "Diretora de Marketing, E-commerce",
-      image: "https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      quote: "Profissional extremamente dedicada e criativa. Nossas campanhas nas redes sociais nunca tiveram tanto engajamento e conversão desde que a Amanda assumiu a gestão.",
+      name: "Lilian Kelly ",
+      role: "CEO da Mundo Doce da Lilian",
+      image: "../src/image/logo-lilian.PNG",
+      quote: "Em março de 2024 nos conhecemos através de um evento e iniciamos um lindo trabalho, onde você vem ajudando muito a nossa Loja a se tornar uma Empresa diferenciada, estratégica e conhecida através do nosso trabalho. Hoje somos reconhecido, valorizado e possuímos uma  posição firme nas Mídias sociais que só foi possível devido ao seu empenho e desempenho conosco. Através do seu trabalho me sinto mas dinâmica, estratégica e criativa para criar conteúdos que antes sem sua ajuda não me sentia preparada.",
       stars: 5
     },
-    {
-      id: 4,
-      name: "Pedro Gomes",
-      role: "Proprietário, Restaurante",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      quote: "As estratégias de marketing local implementadas pela Amanda trouxeram um aumento significativo de clientes para nosso restaurante. Sua visão estratégica é impressionante.",
-      stars: 4
-    }
   ];
 
   return (
