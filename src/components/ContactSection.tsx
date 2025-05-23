@@ -153,7 +153,7 @@ const ContactSection = () => {
                 <a href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
                   <Instagram className="h-6 w-6 text-blue-600" />
                 </a>
-                <a href="#" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                <a href="https://www.linkedin.com/in/glenda-carvalho-6a5a86248/" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
                   <Linkedin className="h-6 w-6 text-blue-600" />
                 </a>
                 <a href="https://wa.me/+5521985552587" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
