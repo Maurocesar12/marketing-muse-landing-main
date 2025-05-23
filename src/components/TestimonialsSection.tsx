@@ -2,15 +2,16 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
-import img1 from "../image/Logo.png";
-
+import nonnaLina from "../image/logo-nonnaLina.png";
+import MMR from "../image/logo-mmr_1.png";
+import lilian from "../image/logo-lilian.png";
 const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
       name: "Ilka",
       role: "CEO, Nonna Lina",
-      image: "../src/image/logo-nonnaLina.png",
+      image: nonnaLina,
       quote: "Ter a Glenda ao meu lado nessa caminhada tem sido uma experiência incrível. Ela conseguiu entender minha essência, meu propósito e transformar isso em ações reais, organizadas e cheias de significado. Com sensibilidade e profissionalismo, ela me ajudou a dar mais clareza ao meu negócio e a fortalecer minha presença nas redes sociais. Sou grata por tudo que construímos juntas até aqui e animada com o que ainda está por vir!",
       stars: 5
     },
@@ -18,7 +19,7 @@ const TestimonialsSection = () => {
       id: 2,
       name: "Raphael",
       role: "CEO e Fundador da MMR Gases",
-      image: "../src/image/logo-mmr_1.png",
+      image: MMR,
       quote: "A consultoria da Glenda foi extremamente importante para profissionalização digital da nossa empresa, sempre buscando novas ideias e contribuindo para o crescimento profissional de cada setor na nossa empresa!",
       stars: 5
     },
@@ -26,7 +27,7 @@ const TestimonialsSection = () => {
       id: 3,
       name: "Lilian Kelly ",
       role: "CEO da Mundo Doce da Lilian",
-      image: "../src/image/logo-lilian.PNG",
+      image: lilian,
       quote: "Em março de 2024 nos conhecemos através de um evento e iniciamos um lindo trabalho, onde você vem ajudando muito a nossa Loja a se tornar uma Empresa diferenciada, estratégica e conhecida através do nosso trabalho. Hoje somos reconhecido, valorizado e possuímos uma  posição firme nas Mídias sociais que só foi possível devido ao seu empenho e desempenho conosco. Através do seu trabalho me sinto mas dinâmica, estratégica e criativa para criar conteúdos que antes sem sua ajuda não me sentia preparada.",
       stars: 5
     },
