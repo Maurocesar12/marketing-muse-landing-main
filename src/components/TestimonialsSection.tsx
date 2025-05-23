@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 import nonnaLina from "../image/logo-nonnaLina.png";
 import MMR from "../image/logo-mmr_1.png";
-import lilian from "../image/logo-lilian.png";
+import lilian from "../image/lilian.jpg";
 const TestimonialsSection = () => {
   const testimonials = [
     {
