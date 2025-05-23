@@ -17,7 +17,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/glenda-carvalho-6a5a86248/" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
