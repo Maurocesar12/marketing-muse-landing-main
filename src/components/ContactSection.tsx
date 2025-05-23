@@ -17,11 +17,10 @@ const ContactSection = () => {
   const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
 
   try {
-    const response = await fetch("https://backend-lp.vercel.app/api/createCard", {
+    const response = await fetch("https://backend-lp.vercel.app/api/trello", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Accept": "application/json",
       },
       body: JSON.stringify({ name, email, subject, message })
     });

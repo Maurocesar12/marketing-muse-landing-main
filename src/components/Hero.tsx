@@ -6,7 +6,7 @@ import imagemPerfil from "../image/imagemPerfil.png";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative overflow-hidden bg-gradient-to-br from-blue-50 to-white py-20 md:py-32">
+    <section id="home" className="relative overflow-hidden bg-gradient-to-br from-blue-50 to-white py-20 md:py-30">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 pr-0 md:pr-10">
