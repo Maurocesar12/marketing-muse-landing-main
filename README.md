@@ -69,7 +69,7 @@ Agora a aplicação estará disponível em **http://localhost:5173** 🚀
 A aplicação pode ser facilmente hospedada em plataformas como:
 
 - **Vercel** → Deploy rápido e simples.
-- **Netlify** → Excelente para sites estáticos.
+- **Hostinger** → Hospedagem Do Site
 - **GitHub Pages** → Alternativa gratuita e eficiente.
 
 ## 📧 Contato
