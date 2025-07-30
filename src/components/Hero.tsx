@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import imagemPerfil from "../image/imagemPerfil.png";
+import imagemPerfil from "../image/imagemPerfil.webp";
 
 const Hero = () => {
   return (

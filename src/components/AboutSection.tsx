@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-import imagePerfil from "../image/section.png"
+import imagePerfil from "../image/section.webp"
 
 const AboutSection = () => {
   return (

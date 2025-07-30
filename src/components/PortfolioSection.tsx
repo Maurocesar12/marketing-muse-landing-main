@@ -2,7 +2,7 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import imagemPerfil from "../image/imagem_not.png";
+import imagemPerfil from "../image/imagem_not.webp";
 
 const PortfolioSection = () => {
   return (

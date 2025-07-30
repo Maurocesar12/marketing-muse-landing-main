@@ -2,9 +2,9 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
-import nonnaLina from "../image/logo-nonnaLina.png";
-import MMR from "../image/logo-mmr_1.png";
-import lilian from "../image/lilian.jpg";
+import nonnaLina from "../image/logo-nonnaLina.webp";
+import MMR from "../image/logo-mmr_1.webp";
+import lilian from "../image/lilian.webp";
 const TestimonialsSection = () => {
   const testimonials = [
     {
