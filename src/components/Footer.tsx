@@ -14,10 +14,10 @@ const Footer = () => {
               Soluções personalizadas de marketing digital para aumentar sua presença online e convertê-la em resultados reais.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br" target="_blank" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
+              <a href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br" target="_blank" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors" aria-label="perfil do instagram">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="https://www.linkedin.com/in/glenda-carvalho-6a5a86248/" target="_blank" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/glenda-carvalho-6a5a86248/" target="_blank" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors" aria-label="perfil likedin">
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
@@ -81,7 +81,7 @@ const Footer = () => {
                 placeholder="Seu email" 
                 className="bg-gray-800 border-gray-700 text-white rounded-r-none focus:border-blue-500 focus:ring-blue-500"
               />
-              <Button className="bg-blue-600 hover:bg-blue-700 rounded-l-none">
+              <Button className="bg-blue-600 hover:bg-blue-700 rounded-l-none" aria-label="proximo passo">
                 <ArrowRight className="h-5 w-5" />
               </Button>
             </div>

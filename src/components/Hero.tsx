@@ -23,7 +23,7 @@ const Hero = () => {
              target="_blank"
              rel="noopener noreferrer"
             >
-            <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base">            
+            <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base" onClick={() => window.open("https://wa.me/5521985552587", "_blank")}>            
                 Quero uma Estratégia             
               </Button>
             </a> 

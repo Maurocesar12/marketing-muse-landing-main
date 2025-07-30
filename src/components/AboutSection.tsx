@@ -14,6 +14,8 @@ const AboutSection = () => {
                 src= {imagePerfil}
                 alt="Sobre Glenda Marketing"
                 className="w-full h-[500px] object-cover"
+                fetchPriority="high"
+                rel="preload"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-60 h-60 bg-blue-100 rounded-full z-0"></div>

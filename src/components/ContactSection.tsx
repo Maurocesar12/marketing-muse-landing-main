@@ -150,13 +150,13 @@ const ContactSection = () => {
             <div>
               <h4 className="text-xl font-bold mb-4 text-gray-800">Siga-me nas redes sociais</h4>
               <div className="flex space-x-4">
-                <a href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                <a href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors" aria-label="perfil do instagram">
                   <Instagram className="h-6 w-6 text-blue-600" />
                 </a>
-                <a href="https://www.linkedin.com/in/glenda-carvalho-6a5a86248/" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                <a href="https://www.linkedin.com/in/glenda-carvalho-6a5a86248/" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors" aria-label="perfil do likedin">
                   <Linkedin className="h-6 w-6 text-blue-600" />
                 </a>
-                <a href="https://wa.me/+5521985552587" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                <a href="https://wa.me/+5521985552587" target="_blank" className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors" aria-label="perfil no whatssap">
                   <Phone className="h-6 w-6 text-blue-600" />
                 </a>
               </div>
