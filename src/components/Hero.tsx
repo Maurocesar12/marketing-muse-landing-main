@@ -17,17 +17,11 @@ const Hero = () => {
             Transformo a essência do seu negócio em uma presença autêntica que atrai, conecta e vende. 
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-            
-            <a
-             href="https://wa.me/+5521985552587"
-             target="_blank"
-             rel="noopener noreferrer"
-            >
+      
             <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base" onClick={() => window.open("https://wa.me/5521985552587", "_blank")}>            
                 Quero uma Estratégia             
               </Button>
-            </a> 
-
+              
               <a
                 href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br"
                 target="_blank"

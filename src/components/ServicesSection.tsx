@@ -66,14 +66,8 @@ const ServicesSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base">
-          <a
-             href="https://wa.me/+5521985552587"
-             target="_blank"
-             rel="noopener noreferrer"
-          >
+          <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base" onClick={() => window.open("https://wa.me/+5521985552587", "_blank")}>
             Quero saber mais!
-          </a>
           </Button>
         </div>
       </div>

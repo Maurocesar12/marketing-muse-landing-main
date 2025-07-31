@@ -38,16 +38,9 @@ const PortfolioSection = () => {
         </div>
        </div>
        <div className="text-center mt-12">
-            <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base mt-8">
-            <a
-             href="https://wa.me/+5521985552587"
-             target="_blank"
-             rel="noopener noreferrer"
-          >
+            <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base mt-8" onClick={() => window.open("https://wa.me/+5521985552587", "_blank")}>
             Precisso disso!
-          </a>
-
-            </Button>
+           </Button>
 
           </div>
       </div>
