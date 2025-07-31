@@ -21,7 +21,7 @@ const Hero = () => {
             <Button className="bg-blue-600 hover:bg-blue-700 px-8 py-6 text-base" onClick={() => window.open("https://wa.me/5521985552587", "_blank")}>            
                 Quero uma Estratégia             
               </Button>
-              
+
               <a
                 href="https://www.instagram.com/glendacarvalhomkt/?hl=pt-br"
                 target="_blank"
@@ -39,6 +39,7 @@ const Hero = () => {
                 src={imagemPerfil} 
                 alt="Profissional de Marketing"
                 className="w-full h-full object-cover"
+                fetchPriority="high"
               />
             </div>
           </div>
